@@ -12,13 +12,6 @@ using json = nlohmann::json;
 json frame_table;
 vector<chrono::time_point<system_clock>> frame_time_point;
 
-float measure_time(int frame_number) {
-
-    // auto duration_us = duration_cast<microseconds>(end - start);  // 计算时间差（微秒）
-    // float duration_ms = static_cast<float>(duration_us.count()) / 1000.0f;  // 转换为毫秒（float类型）
-    // return duration_ms;
-}
-
 int main() {
     SetConsoleOutputCP(65001);
     SetConsoleCP(65001);
